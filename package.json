@@ -52,7 +52,7 @@
     "paypal-rest-sdk": "^1.2.1",
     "pretty-data": "git://github.com/vkiryukhin/pretty-data#master",
     "qs": "^2.3.2",
-    "request": "~2.44.0",
+    "request": "~2.88.0",
     "s3-upload-stream": "^1.0.6",
     "stripe": "*",
     "swagger-node-express": "git://github.com/lefnire/swagger-node-express#habitrpg",
