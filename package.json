@@ -60,7 +60,8 @@
     "validator": "~3.19.0",
     "winston": "~0.8.0",
     "winston-mail": "~0.2.9",
-    "winston-newrelic": "~0.1.4"
+    "winston-newrelic": "~0.1.4",
+    "snyk": "^1.316.1"
   },
   "private": true,
   "subdomain": "habitrpg",
@@ -75,7 +76,9 @@
     "test": "./test/run_tests.sh",
     "start": "grunt run:dev",
     "postinstall": "./node_modules/bower/bin/bower --config.interactive=false install -f; ./node_modules/.bin/grunt;",
-    "coverage": "COVERAGE=true mocha --require register-handlers.js --reporter html-cov > coverage.html; open coverage.html"
+    "coverage": "COVERAGE=true mocha --require register-handlers.js --reporter html-cov > coverage.html; open coverage.html",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "coffee-coverage": "~0.4.2",
@@ -106,5 +109,6 @@
     "superagent-defaults": "~0.1.5",
     "vinyl-source-stream": "^1.0.0",
     "vinyl-transform": "^1.0.0"
-  }
+  },
+  "snyk": true
 }
