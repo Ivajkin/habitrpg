@@ -44,7 +44,7 @@
     "nconf": "~0.6.9",
     "newrelic": "~1.11.2",
     "nib": "~1.0.1",
-    "nodemailer": "~0.5.2",
+    "nodemailer": "~6.4.16",
     "pageres": "^1.0.1",
     "passport": "~0.2.1",
     "passport-facebook": "Fonger/passport-facebook#a8f98adcddad99caa9a918bc7b76462c92c5c9fd",
