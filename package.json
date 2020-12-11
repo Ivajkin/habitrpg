@@ -45,7 +45,7 @@
     "newrelic": "~1.11.2",
     "nib": "~1.0.1",
     "nodemailer": "~0.5.2",
-    "pageres": "^1.0.1",
+    "pageres": "^4.0.0",
     "passport": "~0.2.1",
     "passport-facebook": "Fonger/passport-facebook#a8f98adcddad99caa9a918bc7b76462c92c5c9fd",
     "paypal-ipn": "2.1.0",
