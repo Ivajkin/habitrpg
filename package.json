@@ -38,7 +38,7 @@
     "image-size": "~0.3.2",
     "loggly": "~1.0.8",
     "method-override": "~2.2.0",
-    "moment": "~2.8.3",
+    "moment": "~2.29.2",
     "mongoose": "~3.8.23",
     "mongoose-id-autoinc": "~2013.7.14-4",
     "nconf": "~0.6.9",
@@ -59,7 +59,7 @@
     "universal-analytics": "~0.3.2",
     "validator": "~3.19.0",
     "winston": "~0.8.0",
-    "winston-mail": "~0.2.9",
+    "winston-mail": "~2.0.0",
     "winston-newrelic": "~0.1.4"
   },
   "private": true,
