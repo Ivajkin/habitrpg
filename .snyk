@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - swagger-node-express > express > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > send > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > body-parser > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > compression > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > connect-timeout > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > express-session > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > finalhandler > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > morgan > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-index > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-static > send > debug:
+        patched: '2022-08-03T17:28:15.645Z'
+  'npm:mime:20170907':
+    - swagger-node-express > express > send > mime:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-static > send > mime:
+        patched: '2022-08-03T17:28:15.645Z'
+  'npm:ms:20170412':
+    - swagger-node-express > express > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > send > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > send > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > connect-timeout > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > body-parser > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > compression > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > connect-timeout > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > express-session > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > finalhandler > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > morgan > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-index > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-static > send > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-static > send > debug > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-favicon > ms:
+        patched: '2022-08-03T17:28:15.645Z'
+  'npm:negotiator:20160616':
+    - swagger-node-express > express > connect > compression > accepts > negotiator:
+        patched: '2022-08-03T17:28:15.645Z'
+    - swagger-node-express > express > connect > serve-index > accepts > negotiator:
+        patched: '2022-08-03T17:28:15.645Z'
