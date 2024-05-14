@@ -17,7 +17,7 @@
     "express-csv": "~0.6.0",
     "git-changelog": "colegleason/git-changelog",
     "grunt": "~0.4.1",
-    "grunt-browserify": "^3.3.0",
+    "grunt-browserify": "^6.0.0",
     "grunt-cli": "~0.1.9",
     "grunt-concurrent": "~1.0.0",
     "grunt-contrib-clean": "~0.6.0",
