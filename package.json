@@ -57,7 +57,7 @@
     "stripe": "*",
     "swagger-node-express": "git://github.com/lefnire/swagger-node-express#habitrpg",
     "universal-analytics": "~0.3.2",
-    "validator": "~3.19.0",
+    "validator": "~13.15.20",
     "winston": "~0.8.0",
     "winston-mail": "~0.2.9",
     "winston-newrelic": "~0.1.4"
